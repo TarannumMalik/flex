@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    border: 2px solid gray;
+    height: 54px;
+    box-shadow: 0 0 6px rgba(0, 0, 0.6);
+}
+section header{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+}
+section header nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+section header nav ul li{
+    padding: 0px 20px;
+}
+section header nav ul li a{
+    text-decoration: none;
+}
+section header nav ul li a:hover{
+    color:#af04d1;
+    cursor: pointer;
+}
+section header h1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+section header h1 span{
+    color: #6b04d1;
+}
+section header .logo{
+    font-size: 20px;
+}
+section header .logo i{
+    padding: 0 10px;
+}
+section header .logo i:hover{
+    color: #af04d1;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+section main {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+section main .content{
+    width: 500px;
+    padding: 100px 0;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+section main .content h1{
+    font-size: 90px;
+    font-family: pyxidum quick;
+    margin-left: 55px;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+section main .content h1 span{
+    font-family: pyxidum quick;
+    color: #6b04d1;
+}
+section main .img{
+    margin-top: 30px;
+    margin-right: 0px;
+    box-shadow: 0 0 6px rgba(0, 0, 0.6);
+}
+/*about*/
+
+.about h1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: pyxidum quick;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+.about img{
+    margin-top: 30px;
+    margin-left: 100px;
+    box-shadow: 0 0 6px rgba(0, 0, 0.6);
+}
+.about p{
+   margin-top: 30px;
+   margin-left: 30px;
+   margin-right: 30px;
+   display: flex;
+   text-align: justify;
+}
+
+
+/*product*/
+.product h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 79px;
+    font-size: 60px;
+    font-family: pyxidum   quick;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+.product .product_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px;
+}
+.product .product_page .product_item{
+    /* box-shadow: 0 0 7px  rgba(0, 0, 0.6); */
+}
+.product .product_page .product_item i {
+   color: orange;
+}
+.product .product_pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px;
+    margin-left: 100PX;
+    margin-top: 80px;
+}
+.product .product_pages .product_item{
+    /* box-shadow: 0 0 7px  rgba(0, 0, 0.6); */
+}
+.product .product_pages .product_item i {
+   color: orange;
+}
+
+
+
+/*review*/
+
+.review h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    font-family: pyxidum quick;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+.review .review_content{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+.review .review_content .review_box h2{
+    color: gray;
+}
+.review .review_content .review_box i{
+    color: orange;
+}
+
+/*contact*/
+
+   
+.contact h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    font-family: pyxidum quick;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+.contact .form_info form {
+    height: 300px;
+    position: absolute;
+    top: 2782px;
+}
+.contact .form_info .user{
+    height: 55px;
+}
+.contact .form_info .users{
+    height: 55px;
+}
+.contact .form_info .userss{
+    height: 55px;
+}
+.contact .users_logo {
+    font-size: 9px;
+    position: absolute;
+    right: 80px;
+    top: 2747px;
+}
+.contact .users_logo i:hover{
+    color: #af04d1;
+    transform: scale(1.1);
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+.contact .users_logo p{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.contact img{
+    opacity: 0.8;
+}

@@ -1,0 +1,91 @@
+section header {
+    width: 1190px;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+}
+section main .img {
+    margin-top: 94px;
+    margin-right: -665px;
+    box-shadow: 0 0 6px rgba(0, 0, 0.6);
+}
+section main p{
+    margin-left: 18px;
+}
+.about h1 {
+    margin-top: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 509px;
+    font-size: 60px;
+    font-family: pyxidum quick;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+.about p {
+    margin-top: 30px;
+    margin-left: 117px;
+    margin-right: -646px;
+    display: flex;
+    text-align: justify;
+}
+.product h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 79px;
+    margin-left: 468px;
+    font-size: 60px;
+    font-family: pyxidum quick;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+.product .product_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: -460px;
+}
+.product .product_pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: -460px;
+}
+.about img {
+    margin-top: 30px;
+    margin-left: 69px;
+    box-shadow: 0 0 6px rgba(0, 0, 0.6);
+}
+.review .review_content{
+    margin-left: 100px;
+    margin-right: -400px;
+}
+.review h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 187px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    font-family: pyxidum quick;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+    margin-left: 375px;
+}
+.contact .form_info form {
+    height: 200px;
+    margin-left: 70px;
+    position: absolute;
+    top: 3318px;
+}
+.contact .users_logo {
+    font-size: 9px;
+    position: absolute;
+    right: -380px;
+    top: 3320px;
+}
+.contact img{
+    opacity: 0.8;
+} 

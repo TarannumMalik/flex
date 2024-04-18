@@ -1,0 +1,80 @@
+section header {
+    width: 1131px;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+}
+section main .img {
+    margin-top: 73px;
+    margin-right: -277px;
+    box-shadow: 0 0 6px rgba(0, 0, 0.6);
+}
+section main .content {
+    padding: 119px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about h1{
+margin-top: 100px;
+    margin-left: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: pyxidum quick;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+.about img {
+    margin-top: 30px;
+    margin-left: 59px;
+    box-shadow: 0 0 6px rgba(0, 0, 0.6);
+}
+.about p {
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-right: -253px;
+    display: flex;
+    text-align: justify;
+}
+.product h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 79px;
+    margin-left: 220px;
+    font-size: 60px;
+    font-family: pyxidum quick;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+.product .product_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: -60px;
+}.product .product_pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: -60px;
+}
+.review .review_content{
+    margin-left: 100px;
+    
+}
+.contact .form_info form {
+    height: 200px;
+    margin-left: 59px;
+    top: 3000px;
+}
+.contact .users_logo {
+    font-size: 9px;
+    position: absolute;
+    right: 80px;
+    top: 3000px;
+}
+.contact img{
+    opacity: 0.8;
+}

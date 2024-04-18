@@ -1,0 +1,39 @@
+section header {
+    width: 1314px;
+}
+section main .content h1 {
+    font-size: 90px;
+    font-family: pyxidum quick;
+    margin-left: 159px;
+    text-shadow: 0 0 10px rgba(0, 0, 0.6);
+}
+.about img {
+    margin-top: 30px;
+    margin-left: 155px;
+    box-shadow: 0 0 6px rgba(0, 0, 0.6);
+}
+.about p {
+    margin-top: 30px;
+    margin-left: 111px;
+    margin-right: 83px;
+    display: flex;
+    text-align: justify;
+}
+.contact .users_logo {
+    font-size: 9px;
+    position: absolute;
+    right: 350px;
+    top: 2705px;
+}
+.contact .form_info form {
+    height: 200px;
+    margin-left: 107px;
+}
+.contact img{
+    position: absolute;
+    right:88px;
+    opacity: 0.8;
+}
+.contact img{
+    opacity: 0.8;
+}
